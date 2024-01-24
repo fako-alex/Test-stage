@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TEST STAGIAIRE </title>
+</head>
+<body>
+<div class="gallery-container">
+    <!-- bouton de filtre -->
+    <div class="filter-buttons">
+        <button onclick="filterImages('tous')">voir toute la galerie</button>
+        <button onclick="filterImages('maison')">Image maison</button>
+        <button onclick="filterImages('voiture')">Image voiture</button>
+        <button onclick="filterImages('moto')">Image moto</button>
+
+    </div>
+    <div class="image-gallery" id="imageGallery">
+
+        <!-- section maison-->
+        <div class="image-maison">
+            <img src="./images/téléchargement.jpeg" alt="Maison 1" data-categories="maison">
+            <img src="./images/téléchargement (1).jpeg" alt="Maison 2" data-categories="maison">
+            <img src="./images/téléchargement (2).jpeg" alt="Maison 3" data-categories="maison">
+            <img src="./images/téléchargement (3).jpeg" alt="Maison 4" data-categories="maison">
+
+            <img src="./images/téléchargement.jpeg" alt="Maison 1" data-categories="maison">
+            <img src="./images/téléchargement (1).jpeg" alt="Maison 2" data-categories="maison">
+            <img src="./images/téléchargement (2).jpeg" alt="Maison 3" data-categories="maison">
+            <img src="./images/téléchargement (3).jpeg" alt="Maison 4" data-categories="maison">
+        </div>
+
+        <!-- section voiture-->
+       <div class="image-voiture">
+           <img src="./images/téléchargement (4).jpeg" alt="voiture 1" data-categories="voiture">
+           <img src="./images/téléchargement (5).jpeg" alt="voiture 2" data-categories="voiture">
+           <img src="./images/téléchargement (6).jpeg" alt="voiture 3" data-categories="voiture">
+           <img src="./images/téléchargement (7).jpeg" alt="voiture 4" data-categories="voiture">
+           <img src="./images/téléchargement (8).jpeg" alt="voiture 5" data-categories="voiture">
+
+           <img src="./images/téléchargement (4).jpeg" alt="voiture 1" data-categories="voiture">
+           <img src="./images/téléchargement (5).jpeg" alt="voiture 2" data-categories="voiture">
+           <img src="./images/téléchargement (6).jpeg" alt="voiture 3" data-categories="voiture">
+           <img src="./images/téléchargement (7).jpeg" alt="voiture 4" data-categories="voiture">
+           <img src="./images/téléchargement (8).jpeg" alt="voiture 5" data-categories="voiture">
+       </div>
+
+        <!--section moto -->
+       <div class="image-moto">
+           <img src="./images/téléchargement (9).jpeg" alt="moto 1" data-categories="moto">
+           <img src="./images/téléchargement (10).jpeg" alt="moto 2" data-categories="moto">
+           <img src="./images/téléchargement (11).jpeg" alt="moto 3" data-categories="moto">
+           <img src="./images/téléchargement (12).jpeg" alt="moto 4" data-categories="moto">
+           <img src="./images/téléchargement (13).jpeg" alt="moto 5" data-categories="moto">
+           <img src="./images/téléchargement (14).jpeg" alt="moto 6" data-categories="moto">
+
+           <img src="./images/téléchargement (9).jpeg" alt="moto 1" data-categories="moto">
+           <img src="./images/téléchargement (10).jpeg" alt="moto 2" data-categories="moto">
+           <img src="./images/téléchargement (11).jpeg" alt="moto 3" data-categories="moto">
+           <img src="./images/téléchargement (12).jpeg" alt="moto 4" data-categories="moto">
+           <img src="./images/téléchargement (13).jpeg" alt="moto 5" data-categories="moto">
+           <img src="./images/téléchargement (14).jpeg" alt="moto 6" data-categories="moto">
+       </div>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
